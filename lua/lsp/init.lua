@@ -10,6 +10,7 @@ M.servers = {
   "jsonls",
   "yamlls",
   "phpactor",
+  "angularls",
   "jdtls",
 }
 
