@@ -40,6 +40,10 @@ local M = {
   opts = {
     close_if_last_window = true, -- Close Neo-tree if it is the last window left in the tab
     sources = { "filesystem", "buffers", "git_status", "document_symbols" },
+    source_selector = {
+      winbar = true,
+      statusline = false
+    },
     open_files_do_not_replace_types = { "terminal", "Trouble", "qf", "Outline" },
     filesystem = {
       bind_to_cwd = false,
