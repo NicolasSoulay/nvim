@@ -38,6 +38,7 @@ local M = {
     end
   end,
   opts = {
+    close_if_last_window = true, -- Close Neo-tree if it is the last window left in the tab
     sources = { "filesystem", "buffers", "git_status", "document_symbols" },
     open_files_do_not_replace_types = { "terminal", "Trouble", "qf", "Outline" },
     filesystem = {
@@ -49,7 +50,7 @@ local M = {
       mappings = {
         ["<space>"] = "none",
       },
-      width = 20,
+      width = 30,
     },
     default_component_configs = {
       indent = {
