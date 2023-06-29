@@ -26,6 +26,6 @@
 
 
 ## TODO
-- display error when hovering/ placing the cursor on the error instead of using <g-l>
-- different indent style depending on the type of file
-- problem to indent with 'tab' key most of the time in insert mode
+- implement: display error when hovering/ placing the cursor on the error instead of using <g-l>
+- implement: different indent style depending on the type of file
+- problem: indent with 'tab' key does not work most of the time in insert mode
