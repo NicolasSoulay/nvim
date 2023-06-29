@@ -27,3 +27,5 @@
 
 ## TODO
 - display error when hovering/ placing the cursor on the error instead of using <g-l>
+- different indent style depending on the type of file
+- problem to indent with 'tab' key most of the time in insert mode
